@@ -6,8 +6,8 @@ import time
 from References import serial
 from References import matplotlib
 from References import numpy as np
-from References import matplotlib.pyplot as plt
-from References import matplotlib.animation as animation
+from References.matplotlib import pyplot as plt
+from References.matplotlib import animation as animation
 
 ser = serial.Serial()
 ser.baudrate = 9600
