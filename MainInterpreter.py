@@ -3,8 +3,11 @@ import re
 import time
 
 ###### Reference files from interwebz #######
-
 import serial
+import matplotlib
+import numpy as np
+from matplotlib import pyplot as plt
+from matplotlib import animation as animation
 
 ser = serial.Serial()
 ser.baudrate = 9600
