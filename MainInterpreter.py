@@ -3,10 +3,9 @@ import re
 import time
 
 ###### Reference files from interwebz #######
-
 from References import serial
 from References import matplotlib
-import numpy as np
+from References import numpy as np
 from References.matplotlib import pyplot as plt
 from References.matplotlib import animation as animation
 
